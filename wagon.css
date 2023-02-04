@@ -221,15 +221,16 @@ input{
     outline: none;
 }
 .logo{
-    width: 100px;
+    width: 100%;
     height: 80px;
     /* background-color: yellowgreen; */
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
    align-items:center;
    margin-right: 100px;
    margin-top: -71px;
    color: #252525;
+
 
 }
 .sndmsg{
@@ -239,6 +240,7 @@ input{
 }
 i{
     color: white;
+    margin: 1rem;
 }
 
 @media(max-width:768px){
@@ -335,12 +337,8 @@ i{
     .logo{
         margin: 0;
         height:5px ;
-
-        display: flex;
+         display: flex;
+         justify-content: center;
         align-items: center;
     }
-   
-
-
-
 }
